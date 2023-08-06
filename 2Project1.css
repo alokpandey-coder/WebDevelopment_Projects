@@ -1,0 +1,166 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width: 100vh;
+    background-color:#edf1fd ;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+
+li{
+    list-style: none;
+    cursor:pointer ;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color:rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solidwhite;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+button:hover{
+    background-color:rgb(182, 193, 58);
+    color: black;
+    border: 1px solid black;
+}
+
+nav{
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+   /*margin-top: 2px;
+   margin-left: 2px;
+   margin-right: 2px;
+
+   padding-top: 2px;
+   padding-left:2px;
+   padding-right:2px;
+   */
+}
+
+nav.logo{
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    gap:30px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    color: rgb(208, 211, 19);
+
+}
+
+.search-field{
+    display: flex;
+    gap: 35px;
+
+}
+input{
+    padding: 4px 10px;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+
+.hero-left-section h1{
+    font-size: 40px;
+    margin: 20px;
+    font-weight: 700;
+}
+
+.hero-right-section h1 span{
+       color:rgb(18, 155, 155) ;
+       font-weight: 900;
+       font-size: 2.5 rem;
+}
+
+.hero-left-section p{
+     font-weight: 500;
+}
+
+.hero-left-section p span{
+    color:rgb(18, 155, 155) ;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.hero-right-section {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /*width :40%;*/
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+}
+
+.hero-right-section-btns{
+     display: flex;
+     align-items: center;
+     gap: 30px;
+}
+
+.hero-right-section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 60px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    justify-content: space-between;
+}
+footer p{
+    
+    font-weight: 600;
+}
+footer ul {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove any default padding */
+    margin-top: 20px; /* Add some space between the text and icons */
+    gap: 10px;
+}
+
+footer ul li a i:hover{
+    background-color: rgb(18, 155, 155);
+    font-size: xx-large;
+
+}
+
+
+
